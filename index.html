@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/html">
+<html>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -7,236 +7,76 @@
     <style>
       body {
         background-color: #4a55a2;
+        margin: 0;
+        padding: 0;
+      }
+      .header {
+        background-color: #a0bfe0;
+        padding: 15px;
+        text-align: center;
+      }
+      .header a {
+        color: #000000;
+        margin: 0 10px;
+        text-decoration: none;
+      }
+      .content {
+        background-color: #30a2ff;
+        padding: 250px;
+        text-align: center;
+        color: #ffffff;
+        font-family: Arial;
+        font-size: 20px;
+      }
+      .footer {
+        background-color: #353535;
+        padding: 15px;
+        text-align: center;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        padding: 20px;
+      }
+      .footer img {
+        width: 30px;
+        height: 30px;
+        margin: 0 10px;
       }
     </style>
   </head>
+  <body>
+    <header class="header">
+      <h1>KAMAL</h1>
+      <nav>
+        <a href="#home">HOME</a>
+        <a href="latihan1.html">LATIHAN 1</a>
+        <a href="latihan2.html">LATIHAN 2</a>
+        <a href="latihan3.html">LATIHAN 3</a>
+      </nav>
+    </header>
 
-  <body style="margin: 0">
-    <table
-      border="0"
-      width="100%"
-      cellpadding="0"
-      cellspacing="0"
-      bgcolor="#A0BFE0"
-    >
-      <tr>
-        <td>
-          <table
-            border="0"
-            width="85%"
-            cellpadding="15"
-            cellspacing="0"
-            align="center"
-          >
-            <tr>
-              <td>
-                <font face="arial" color="#000000" size="5">
-                  <strong>KAMAL</strong>
-                </font>
-              </td>
-              <td width="40%">&nbsp;</td>
-              <td>
-                <a href="#home">
-                  <font face="arial" color="#000000" size="3"> HOME </font></a
-                >
-              </td>
-              <td>
-                <a href="latihan1.html">
-                  <font face="arial" color="#000000" size="3">
-                    LATIHAN 1
-                  </font></a
-                >
-              </td>
-              <td>
-                <a href="latihan2.hmtl">
-                  <font face="arial" color="#000000" size="3"
-                    >LATIHAN 2
-                  </font></a
-                >
-              </td>
-              <td>
-                <a href="latihan2.hmtl">
-                  <font face="arial" color="#000000" size="3"
-                    >LATIHAN 3
-                  </font></a
-                >
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
+    <section id="home" class="content">
+      <h1>
+        <marquee behavior="alternate" direction="left" scrollamount="2"
+          >Hi, I'm Zulfikar Kamal</marquee
+        >
+      </h1>
+      <h3>
+        <marquee behavior="alternate" direction="right" scrollamount="2"
+          >This Website Is Made Using HTML Only</marquee
+        >
+      </h3>
+    </section>
 
-    <table
-      border="0"
-      id="home"
-      width="100%"
-      cellpadding="0"
-      cellspacing="0"
-      bgcolor="#30A2FF"
-    >
-      <tr>
-        <td>
-          <table
-            border="0"
-            width="100%"
-            cellpadding="15"
-            cellspacing="0"
-            align="center"
-          >
-            <tr>
-              <td align="center" valign="middle" height="500">
-                <h1>
-                  <marquee
-                    behavior="alternate"
-                    direction="left"
-                    scrollamount="2"
-                  >
-                    <font face="arial" color="#ffffff" size="6">
-                      Hi, I'm Zulfikar Kamal
-                    </font>
-                  </marquee>
-                </h1>
-                <h3>
-                  <marquee
-                    behavior="alternate"
-                    direction="right"
-                    scrollamount="2"
-                  >
-                    <font face="arial" color="#A0BFE0" size="6">
-                      This Website Is Made Use Html Only
-                    </font>
-                  </marquee>
-                </h3>
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-
-    <!-- Start Footer -->
-    <table
-      border="0"
-      width="100%"
-      cellpadding="0"
-      cellspacing="0"
-      bgcolor="#353535"
-    >
-      <tr>
-        <td>
-          <table
-            border="0"
-            width="85%"
-            cellpadding="15"
-            cellspacing="0"
-            align="center"
-          >
-            <tr>
-              <td colspan="3">
-                <hr noshade />
-              </td>
-            </tr>
-            <tr>
-              <td colspan="3" height="100" valign="top">
-                <table
-                  border="0"
-                  width="30%"
-                  cellpadding="0"
-                  cellspacing="0"
-                  align="center"
-                >
-                  <tr>
-                    <td width="25%" align="center">
-                      <table
-                        border="0"
-                        width="30"
-                        cellpadding="0"
-                        cellspacing="0"
-                        align="center"
-                        height="30"
-                      >
-                        <tr>
-                          <td align="center" valign="middle">
-                            <a href="">
-                              <font size="1" color="#ffffff">
-                                <span><img src="resources/Github.png" /></span>
-                              </font>
-                            </a>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                    <td width="25%" align="center">
-                      <table
-                        border="0"
-                        width="50"
-                        cellpadding="0"
-                        cellspacing="0"
-                        align="center"
-                        height="50"
-                      >
-                        <tr>
-                          <td align="center" valign="middle">
-                            <a href="">
-                              <font size="5" color="#ffffff">
-                                <span><img src="resources/Twitter.png" /></span>
-                              </font>
-                            </a>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                    <td width="25%" align="center">
-                      <table
-                        border="0"
-                        width="50"
-                        cellpadding="0"
-                        cellspacing="0"
-                        align="center"
-                        height="50"
-                      >
-                        <tr>
-                          <td align="center" valign="middle">
-                            <a href="">
-                              <font size="1" color="#ffffff">
-                                <span
-                                  ><img src="resources/WhatsApp.png"
-                                /></span>
-                              </font>
-                            </a>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                    <td width="25%" align="center">
-                      <table
-                        border="0"
-                        width="50"
-                        cellpadding="0"
-                        cellspacing="0"
-                        align="center"
-                        height="50"
-                      >
-                        <tr>
-                          <td align="center" valign="middle">
-                            <a href="">
-                              <font size="1" color="#ffffff">
-                                <span><img src="resources/Discord.png" /></span>
-                              </font>
-                            </a>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-    <!-- End Footer -->
+    <footer class="footer">
+      <hr />
+      <div>
+        <a href=""><img src="resources/Github.png" alt="Github" /></a>
+        <a href=""><img src="resources/Twitter.png" alt="Twitter" /></a>
+        <a href=""><img src="resources/WhatsApp.png" alt="WhatsApp" /></a>
+        <a href=""><img src="resources/Discord.png" alt="Discord" /></a>
+      </div>
+    </footer>
   </body>
 </html>
